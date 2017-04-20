@@ -237,3 +237,83 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+/*
+  These rules take effect when the browser's width
+  is either 980px or less.
+*/
+@media screen and (max-width: 980px) {
+  #masthead {
+  position: static;
+  width: 100%;
+  margin: 0 0 0px;
+  }
+
+  #logo {
+    margin-left: 100px;
+  }
+
+  footer {
+    position: static;
+  }
+
+  #main-container
+    {
+      padding-top: 40px;
+    }
+
+  .main-section {
+    width: 500px;
+    height: 800px;
+    margin-left: 40px;
+    float: left;
+
+  }
+
+  .auth-image {
+    width: 200px;
+    float: none;
+  }
+
+  
+
+  .sidebar {
+    margin-right: 40px;
+    float: right;
+  }
+
+  textarea {
+    height: 400px;
+  }
+
+  .work {
+    width: 200px;
+    height: 200px;
+    margin: 10px 0px 10px 0px;
+    float: none;
+    align-content: center;
+   
+  
+
+  }
+
+  .work img {
+    height: 125px;
+    
+  }
+
+
+  h3 {
+    padding-bottom: 0px;
+    width: 100%;
+    height: 60px;
+    line-height: 20px;
+    margin-bottom: 5px;
+  }
+
+  }
+
+
+
+
+
